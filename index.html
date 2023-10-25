@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="file.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <script src="index.js"></script>
+    <title>Gym Landing Page</title>
+    <script src="session.js"></script>
+</head>
+<body>
+    <div id="loading-button-container">
+        <button id="loading-button" disabled>Loading...</button>
+    
+    
+    <header>
+        <nav>
+            <div class="container">
+                <h1 id="Sache"> <span id="sache2">Sache Fitness</span></h1>
+                <div class="links">
+                <ul>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#testimonials" >Testimonials</a></li>
+                    <li><a href="#signUp"onclick = "signup()" >signUp</a></li>
+                    <li><a href="#location" >Location</a></li>
+                </ul>
+            </div>
+            </div>
+        </nav>
+    </header>
+    <section id="hero">
+        <div class="container">
+            <h1>Welcome to GymFit</h1>
+            <p>Your journey to a healthier lifestyle starts here.</p>
+            <a href="#signUp" class="cta-button" onclick="signup()">Get Started</a>
+            <a href="sachegame.html" class="cta-button">Sache game... <span>let's play</span></a>
+            <a href="booking.html" class="cta-button">Need to book for a visit</a>
+            <a href="chatbot.html" class="cta-button">Use the chatbot</a>
+            <a href="admin.php" class="cta-button">Admin click here</a>
+        </div>
+    </section>
+    <section id="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum dignissim libero vel elit ultrices.</p>
+        </div>
+    </section>
+    <section id="services">
+        <div class="container">
+            <h2>Our Services</h2>
+            <div class="service">
+                <h3>Personal Training</h3>
+                <img src="" alt="">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+            <div class="service">
+                <h3>Group Classes</h3>
+                <img src="" alt="">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+            <div class="service">
+                <img src="" alt="">
+                <h3>Nutrition Counseling</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="testimonials">
+        <div class="container">
+        <h4>Our testimonials</h4>
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="image1.jpg" alt="Image 1">
+               
+                <div class="swiper-slide">
+                    <img src="image2.jpg" alt="Image 2">
+                
+                <div class="swiper-slide">
+                    <img src="image1.jpg" alt="Image 3">
+                </div>
+            </div>
+        </div>
+            
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="signUp">
+    <div class="container">
+        <h2 id="signup">Sign Up</h2>
+        <form>
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Confirm Password</label>
+                <input type="password" id="confirm_password" name="password" required>
+            </div>
+            <button type="submit" class="cta-button">Sign Up</button>
+
+        </form>
+        <script src="index2.js"></script>
+    </div>
+</section>
+<section id="location">
+    <div class="container">
+        <h2>Our Location</h2>
+        <iframe
+            width="100%"
+            height="400"
+            frameborder="0"
+            scrolling="no"
+            marginheight="0"
+            marginwidth="0"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.
+            984236247536!2d36.82610617586518!3d-1.1715843355133735!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.
+            1!3m3!1m2!1s0x182f3d92755d2733%3A0x3e2faef8c89888e3!2sSache%20fitness!5e0!3m2!1sen!2ske!4v1697714800157!5m2!1sen!2ske" 
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+             referrerpolicy="no-referrer-when-downgrade">"
+        ></iframe>
+    </div>
+</section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <form>
+                <input type="text" placeholder="Your Name">
+                <input type="email" placeholder="Your Email">
+                <textarea placeholder="Your Message"></textarea>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </section>
+    <section>
+        <div class="container">
+            <h1>Our social media handles</h1>
+            <div class="social-links">
+                <div class="facebook">
+                <a href="https://www.facebook.com/https://www.facebook.com/ChegeSara/" target="_blank" class="social-icon">
+                    <i class="fab fa-facebook"></i>
+                </a>
+                </div>
+                <div class="instagram">
+                <a href="https://www.instagram.com/https://www.instagram.com/sachefitt/" target="_blank" class="social-icon">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                </div>
+                <div class="whatsapp">
+                <a href="https://www.whatsapp.com/https://www.whatsapp/+254754959775/" target="_blank" class="social-icon" >
+                    <i class="fab fa-whatsapp"></i>
+                </a>
+                </div>
+                <div class="linkedIn">
+                    <a href="https://www.linkedIn.com/https://www.linkedIn/sachefittness/" target="_blank" class="social-icon" >
+                        <i class="fab fa-LinkedIn"></i>
+                    </a>
+                    </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container">
+            <h1>Need to rate us?</h1>
+            <div class="rating">
+                <span class="star" data-rating="1">&#9733;</span>
+                <span class="star" data-rating="2">&#9733;</span>
+                <span class="star" data-rating="3">&#9733;</span>
+                <span class="star" data-rating="4">&#9733;</span>
+                <span class="star" data-rating="5">&#9733;</span>
+            </div>
+        </section>
+    
+   
+    <footer>
+        <div cla ss="container">
+          <p style="font-size: medium; font-family: Georgia,
+           'Times New Roman', Times, serif; color: #fff;" > Terms and conditions applies||</p> <br>
+            <hr>
+            <br>
+            <p>&copy; Sache fitness</p>
+           
+        </div>
+    </footer>
+
+</body>
+</div>
+</html>

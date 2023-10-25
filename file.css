@@ -1,0 +1,413 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Style the header */
+header {
+    background-color: black;
+    width: auto;
+    height: 23vh;
+    color: white;
+ 
+    align-items: center;
+    
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+span {
+    color: #833333;
+}
+#Sache{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 45px;
+    padding-top: 3rem;
+}
+#sache2{
+    display: inline-block;
+    font-size: 24px;
+    padding: 10px;
+    background-color: #f26522;
+    color: white;
+    border-radius: 5px;
+    transition: transform 0.3s ease;
+}
+#sache2 :hover{
+    transform: scale(1.2);
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+    color: aliceblue;
+
+ 
+}
+
+header ul li {
+    margin: 0 20px;
+    color: aliceblue;
+}
+header ul li a {
+    list-style: none;
+    color: antiquewhite;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none;
+
+}
+
+
+#hero {
+    background-image: url('image1.jpg');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: white;
+    padding: 200px 0;
+}
+
+#hero h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+#hero p {
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+}
+
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #f26522;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+
+section {
+    padding: 60px 0;
+}
+
+
+#testimonials {
+    background-color: #f4f4f4;
+    padding: 60px 0;
+    text-align: center;
+}
+
+#testimonials h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+
+.swiper-container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.swiper-slide {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.swiper-slide img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.swiper-button-next, .swiper-button-prev {
+    background-color: #f26522;
+    color: white;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 20px;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+
+@media screen and (max-width: 768px) {
+    .swiper-button-next, .swiper-button-prev {
+        display: none;
+    }
+}
+
+.swiper-slide {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    max-width: 300px; /* Adjust the maximum width as needed */
+    margin: 0 auto; /* Center align the image */
+}
+
+
+.swiper-slide img {
+    max-width: 100%; /* Make sure the image fits within its container */
+    max-height: 100%; /* Make sure the image maintains its aspect ratio */
+    transition: transform 0.3s; /* Add a smooth zoom effect on hover */
+    cursor: pointer;
+}
+
+/* Hover effect for the images */
+.swiper-slide img:hover {
+    transform: scale(1.05); /* Enlarge the image slightly on hover */
+}
+.swiper-container{
+    display: flex;
+    visibility: visible;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+
+#signUp {
+    background-image: url("image1.jpg");
+    padding: 200px 0;
+    text-align: center;
+    visibility: hidden;
+}
+#signup{
+    color: #f4f4f4;
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#signUp h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button[type="submit"] {
+    background-color: #f26522;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+
+@media screen and (max-width: 768px) {
+    form {
+        max-width: 100%;
+    }
+}
+
+
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input,
+textarea {
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+button {
+    background-color: #f26522;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+
+@media screen and (max-width: 768px) {
+    header ul {
+        flex-direction: column;
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    header ul li {
+        margin: 10px 0;
+    }
+}
+
+
+#booking {
+    background-image:url("image1.jpg");
+    padding: 250px 0;
+    text-align: center;
+}
+
+#booking h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+#booking-form .form-group select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+
+@media screen and (max-width: 768px) {
+    #booking-form .form-group select {
+        width: 100%;
+    }
+}
+/* Add styles for the Back section (if needed) */
+
+#back {
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+.back-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #f26522;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.back-button:hover {
+    background-color: #e15000; /* Change color on hover */
+}
+
+/* Media query for responsive design (if needed) */
+
+/* Add these styles for the loading button */
+/* Add these styles for the loading button */
+#loading-button-container {
+  
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+
+#loading-button {
+    padding: 10px 20px;
+    background-color: #f26522;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: not-allowed;
+}
+
+#loading-button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+/* Add styles for the social links */
+.social-links {
+    margin-top: 20px;
+    display: flex;
+}
+
+.social-icon {
+    font-size: 24px;
+    margin: 0 10px;
+    text-decoration: none;
+    color: #333;
+    transition: color 0.9s;
+    size: 1rem;
+    padding: 20px 0;
+}
+
+.facebook :hover{
+    color: rgb(14, 14, 191);
+}
+.instagram :hover{
+  color: #da1010;
+}
+.whatsapp :hover{
+    color:rgb(14, 232, 14);
+}
+
+
+/* Add styles for the rating section */
+.rating {
+    font-size: 24px;
+}
+
+.star {
+    cursor: pointer;
+    margin: 0 5px;
+}
+
+.star.selected {
+    color: #f26522;
+}
+
+

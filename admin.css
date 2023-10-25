@@ -1,0 +1,47 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color:black;
+}
+
+.gym-game-container {
+    text-align: center;
+    padding: 20px;
+    background-color: #eee;
+    border: 2px solid #333;
+    border-radius: 10px;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.weights {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-color: #f26522;
+    margin: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.score {
+    font-size: 18px;
+}
+#game{
+display: inline-block;
+font-size: 24px;
+padding: 10px;
+background-color: #f26522;
+color: white;
+border-radius: 5px;
+transition: transform 0.3s ease;
+}
+#game :hover{
+transform: scale(1.2);
+}

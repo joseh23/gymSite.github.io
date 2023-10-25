@@ -1,0 +1,132 @@
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body{
+        background-color: beige;
+    }
+/* Add your own CSS styles to customize the chatbot appearance */
+.chat-container {
+    max-width: 500px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+  
+}
+
+.chat-header {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+.chat-box {
+    padding: 10px;
+    overflow-y: scroll;
+    max-height: 200px;
+}
+
+.chat-message {
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.chat-message.bot {
+    background: #f0f0f0;
+}
+
+.chat-message.user {
+    background: #cce5ff;
+    text-align: right;
+}
+
+.chat-input {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+input[type="text"] {
+    flex: 1;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+
+button {
+    background: #333;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#back {
+    background-color: #f4f4f4;
+    text-align: center;
+  
+}
+
+.back-button {
+  
+    display: inline-block;
+  padding: 30px;
+    background-color: #f26522;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+   
+}
+
+.back-button:hover {
+    background-color: #e15000; /* Change color on hover */
+}
+.backbtn{
+    margin-left: 45rem ;
+    margin-top: 3rem;
+}
+.main{
+    padding-top: 7rem;
+}
+
+/* Media query for responsive design (if needed) */
+@media (max-width: 600px) {
+    .chat-container {
+        max-width: 100%;
+        border-radius: 0;
+    }
+
+    .chat-box {
+        max-height: 150px;
+    }
+    
+    /* Add more styles as needed for smaller screens */
+}
+
+/* Media query for screens larger than 600px */
+@media (min-width: 601px) {
+    .chat-container {
+        max-width: 400px;
+        border-radius: 5px;
+    }
+
+    .chat-box {
+        max-height: 200px;
+    }
+
+    /* Add more styles as needed for larger screen
+
+
+
+
+
+
